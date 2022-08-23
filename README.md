@@ -73,7 +73,7 @@ This is the official implementation of [**VPFNet: Improving 3D Object Detection 
 
 2. Evaluation.
 
-    The configuration file is in tools/cfgs/voxelrcnn, and the training scripts is in tools/scripts.
+    The configuration file is in tools/cfgs/VPFNet, and the training scripts is in tools/scripts.
 
     ```
     cd tools
