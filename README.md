@@ -1,5 +1,5 @@
 # VPFNet
-<p align="center"> <img src='docs/VPFNet.png' align="center" height="400px"> </p>
+<p align="center"> <img src='docs/VPFNet.png' align="center" height="500px"> </p>
 
  
 This is the official implementation of [**VPFNet: Improving 3D Object Detection with Virtual Point based LiDAR and Stereo Data Fusion**](https://arxiv.org/abs/2111.14382), built on [`OpenPCDet`](https://github.com/open-mmlab/OpenPCDet).
