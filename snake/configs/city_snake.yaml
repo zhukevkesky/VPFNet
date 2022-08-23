@@ -1,0 +1,21 @@
+model: 'city_snake'
+network: 'ro_34'
+task: 'snake'
+resume: true
+gpus: (3,)
+ 
+train:
+    optim: 'adam'
+    lr: 0.00005
+    milestones: (80, 120, 150)
+    gamma: 0.5
+    batch_size: 16
+    dataset: 'CityscapesTrain'
+    num_workers: 16
+    epoch: 200
+test:
+    dataset: 'CityscapesCocoVal'
+    batch_size: 1
+
+heads: {'ct_hm': 8, 'wh': 2}
+segm_or_bbox: 'segm'
